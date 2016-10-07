@@ -1,10 +1,14 @@
-## Usage
+# What this is
+This is an example of a nodejs back-end service. It's used as part of the Building Services at Scale course.
 
-```bash
-$ echo "details coming soon"
+# How to run the project
+First build the docker image by running the following command:
+```
+docker run -t your-docker-hub-account-name/mesos-tutorial-back-end-nodejs .
+```
+Then run the sample service:
+```
+docker run -p 8080:8080 -it your-docker-hub-account-name/mesos-tutorial-back-end-nodejs 
 ```
 
-
-## License
-
-MIT
+you should now be able to access http://localhost:8080
