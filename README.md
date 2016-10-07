@@ -4,7 +4,7 @@ This is an example of a nodejs back-end service. It's used as part of the Buildi
 # How to run the project
 First build the docker image by running the following command:
 ```
-docker run -t your-docker-hub-account-name/mesos-tutorial-back-end-nodejs .
+docker build -t your-docker-hub-account-name/mesos-tutorial-back-end-nodejs .
 ```
 Then run the sample service:
 ```
